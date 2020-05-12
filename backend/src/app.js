@@ -6,6 +6,13 @@ const mongoose = require('mongoose')
 
 const app = express();
 
+const server = require('http').Server(app)
+const io = require('socket.io')(server)
+
+app.use((request, response, next) => {
+    request.io = io
+    next()
+})
 
 app.use(cors({ origin: "*" }));
 app.use(express.json());
@@ -20,4 +27,4 @@ app.use(`/files`, express.static(path.resolve(__dirname, '..', 'uploads', 'resiz
 
 app.use(routes);
 
-module.exports = app;
+module.exports = server;

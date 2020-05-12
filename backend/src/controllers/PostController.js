@@ -31,7 +31,7 @@ module.exports = {
             hastags,
             image: fileName
         })
-
+        request.io.emit('post', post)
         return response.json(post)
     }
 }
