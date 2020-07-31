@@ -5,6 +5,10 @@
 
 Objetivo do projeto é desenvolver uma aplicação clone do Instagram.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10083265/89054981-0b517480-d330-11ea-9a9f-7ea78fb5d21f.jpg" />
+</p>
+
 ## Tecnologias
 
 - [x] Node.js
@@ -27,10 +31,6 @@ Objetivo do projeto é desenvolver uma aplicação clone do Instagram.
 - [x] Listage de Feeds
 - [x] Inserir Novos Feeds
 - [x] Like ^^
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/10083265/89054981-0b517480-d330-11ea-9a9f-7ea78fb5d21f.jpg" />
-</p>
 
 ## Backend
 
